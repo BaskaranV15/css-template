@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: rgb(154, 21, 154);
+        }
+        .navbar
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            justify-items: center;
+            border: 0.25em rgb(255, 255, 255) solid;
+            padding: 0.25em;
+            margin: 0.25em 0 0.75em;
+        }
+
+        .navbar h2
+        {
+            display: inline-block;
+            padding: 0.25em;
+            text-align: center;
+        }
+         li,ul
+         {
+            display: inline-block;
+            padding: 0.25em;
+            font-family: cursive;
+         }
+         .h21{
+            font-family: cursive;
+         }
+         .h21 p{
+            color: rgba(30, 20, 20, 0.537);
+            font-family: cursive;
+            display: inline;
+         }
+        .mid
+        {
+            display: inline-block;
+            width: 45%;
+        }
+       .img
+       {
+        display: inline-block;
+        width: 55%;
+        height: 55%;
+       }
+       
+       .you
+       {
+        margin-left: 10%;
+        font-size: xx-large;
+        margin-top: 5%;
+       }
+       .WELCOME
+       {
+        margin-left: 10%;
+        margin-top: 20%;
+       }
+       .SOUTH
+       {
+        color: rgb(66, 21, 66);
+
+       }
+       .cho
+       {
+        margin-left: 10%;
+
+       }
+       .cho select
+       {
+        width: 100%;
+        height: 35px;
+        color: black;
+       }
+       .cho select option{
+            color: rgb(169, 10, 10);
+       }
+       .exp
+       {
+        /* width:25%;
+        height: 25%; */
+        border-radius:12.5 ;
+        background-color: rgb(137, 5, 155);
+        color: aliceblue;
+        padding: 0.5em;
+        margin-left: 10%;
+        margin-top: 5%;
+       }
+       .mid1
+       {
+        
+        margin-left: 5%;
+        margin-top: 3.5em;
+        
+       }
+       .row
+       {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: stretch;
+        width: 100%;
+        text-align:justify;
+       }
+       .col
+       {
+        
+        width: 33.3333333%;
+        margin-top: 2em;
+        padding-left:3em;
+       }
+       /* .img {
+             max-width: 100%;
+            } */
+             .col img{
+                width: 100%;
+                
+             }
+        
+        .col h2{
+            margin: 0.5em 0 0.5em 0;
+            color: rgba(0, 0, 0, 0.623);
+            
+        }
+        .col h3{
+            margin-top: -0.25em;
+            color: rgb(8, 8, 8);
+        }
+       .col p{
+           margin-top:1.5em;
+           color: rgb(10, 1, 1);
+       }
+       .col button
+       {
+        margin-top: 1em;
+        background-color: purple;
+        color: whitesmoke;
+        width: 7.5em;
+        height: 2em;
+       }
+       .footers{
+        margin-top: 5em;
+        background-color: rgba(213, 213, 213, 0.781);
+        padding-top: 5em;
+        padding-left: 35%;
+       }
+       .footers p{
+        padding-top: 0.5em;
+       }
+       
+       /* .footers textarea
+       {
+        margin-top: 0.5em;
+       } */
+       label{
+        display:block;
+        margin-top: 1em;
+
+        
+       }
+       
+       select
+       {
+        margin-top: -1em;
+        display: block;
+        width: 42.5%;
+        height: 2.5em;
+       }
+       textarea
+       {
+        margin-top: -1em;
+        display: block;
+       }
+       .cnt
+       {
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        width: 42.5%;
+        height: 2.5em;
+       }
+       form button
+       {
+        background-color: purple;
+        color: white;
+        height: 2em;
+        margin-bottom: 5em;
+       }
+       footer textarea
+       {
+        width: 42.5%;
+        height: 2.5em;
+       }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <h2 class="h21">explor<p>er</p></h2>
+            <ul>
+                <li>Hotels</li>
+                <li>Bike Renatls</li>
+                <li>Restaurants</li>
+            </ul>
+        </nav>
+    </div>
+    
+
+    <div>
+        <div class="mid">
+            <p class="WELCOME">WELCOME TO EXPLORER </p>
+            <div class="you">
+                <h3 CLASS="youadv">YOUR ADVENTURE TRAVEL EXPERT IN THE <strong CLASS="SOUTH">SOUTH</strong></h3><br>
+            </div>
+            <div class="cho">
+                <select name="choose" id="">
+                    <option value="">choose</option>
+                    <option value="Pollachi">Pollachi</option>
+                    <option value="Chidambaram">Chidambaram</option>
+                    <option value="Thanjavur">Thanjavur</option>
+                    <option value="Kumbakkonam">Kumbakkonam</option>
+                    <option value="Tirukovilur">Tirukovilur</option>
+                    <option value="Tirunelveli">Tirunelveli</option>
+                </select>
+            </div>
+            <button CLASS="exp">EXPLORE</button>
+        </div>
+        <img class ="img" align="right" src="image.png" alt="" class="imag">
+    </div>
+
+    <div class="mid1">
+        <h2>Destination</h2>
+        <p>Just ofr you Because you and your bike are special for us</p>
+    </div>
+
+      
+    <div class="row">
+            <div class="col">
+                <img src="pollachi.png" alt="">
+                <h2>Never Ending Paddy field and Narrow Roads</h2>
+                <h3>Pollachi</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quisquam quas eligendi tenetur totam dicta similique cupiditate soluta illum distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odio quidem dolorum ullam voluptas debitis inventore unde, at esse beatae.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="col">
+                <img src="thanjaur.png" alt="">
+                <h2>Small Ride across town in mid Summer heat</h2>
+                <h2></h2>
+                <h3>Pollachi</h3>
+                <p>Lorem ipsum dolor, sit amet  adipisicing elit. Officiis quisquam quas eligendi tenetur totam dicta similique cupiditate soluta illum distinctio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, similique! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam nam placeat odit et consequuntur nesciunt rerum, excepturi officia illo reprehenderit.</p>
+                <button>READ MORE</button>
+
+            </div>
+            <div class="col">
+                <img src="chidambaram.png" alt="">
+                <h2>Catching a Short Break at the Lotus Pond</h2>
+                <h3>Pollachi</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quisquam quas eligendi tenetur totam dicta similique cupiditate soluta illum distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus asperiores voluptate magni omnis aliquam cupiditate quod adipisci impedit voluptatibus soluta.</p>
+                <button>READ MORE</button>
+            </div>   
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="kumbakonam.png" alt="">
+            <h2>Fall in Love with the divine the agraharams</h2>
+            <h3>kumbakonam</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quisquam quas eligendi tenetur totam dicta similique cupiditate soluta illum distinctio? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, provident. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ratione ex tempora nostrum dolorum animi placeat quae iusto beatae vel.</p>
+            <button>READ MORE</button>
+        </div>
+        <div class="col">
+            <img src="tirukuvilur.png" alt="">
+            <h2>Road Trip enroute the mountanins and forests</h2>
+            <h3>Tirukovilur</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quisquam quas eligendi tenetur totam dicta similique cupiditate soluta illum distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, cumque nemo est repellat et recusandae harum itaque! Saepe, cupiditate fugiat?</p>
+            <button>READ MORE</button>
+        </div>
+        <div class="col">
+            <img src="tirunelvali.png" alt="">
+            <h2>Energy driven drive through the windmills</h2>
+            <h3>Tirunelveli</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quisquam quas eligendi tenetur totam dicta similique cupiditate soluta illum distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi sit ducimus fugit nam ex tempore qui, nihil similique officiis!</p>
+            <button>READ MORE</button>
+        </div>   
+</div>
+
+<footer class="footers">
+    <h2>Contact Us</h2>
+    <p>our sales team will reach out to you ASAP!</p>
+    <form action="post" class="last">
+        <label for="name">Name</label><br>
+        <textarea id="address" name="address"  required></textarea>
+        <label for="town">Your Home Town</label><br>
+        <select name="townn" placeholder="Town">
+            <option value="" >Tirukovilur</option>
+            <option value="">Chidambaram</option>
+            <option value="">Pollachi</option>
+            <option value="">Tirunelveli</option>
+            <option value="">Thanjavur</option>
+            <option value="">Kumbakkonam</option>
+        </select> 
+        
+        <label for="contact" class=".cont">Contact Number</label>
+        <input type="text" placeholder="91+ **********" class="cnt"><br>
+        <!-- <input type="submit" name="SUBMIT INTERST"> -->
+         <button>SUBMIT INTREST</button>
+    </form>
+</footer>
+
+
+<footer>
+
+</footer>
+    
+</body>
+</html>
